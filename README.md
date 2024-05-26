@@ -71,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ***isActive Navlink - page Header;
 
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
