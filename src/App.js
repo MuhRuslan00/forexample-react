@@ -7,13 +7,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import EditEmployee from './componenets/EditEmployee';
 import Header from './componenets/Header';
 import Employees from './pages/Employees';
+import Dictionary from './componenets/Dictionary';
 function App() {
     return (
     <div className="App">
       <BrowserRouter>
       <Header>
       <Routes>
+
         <Route path='/' element={<Employees />} />
+        <Route path= '/dictionary' element={<Dictionary/>} />
+        {/* <Route path='/customers' element={<Customers/>} /> */}
         </Routes> 
       
       </Header>
