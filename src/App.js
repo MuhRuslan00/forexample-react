@@ -7,8 +7,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import EditEmployee from './componenets/EditEmployee';
 import Header from './componenets/Header';
 import Employees from './pages/Employees';
-import Dictionary from './pages/Dictionary';
-import Definition from './pages/Definition';
+import Dictionary from './componenets/Dictionary';
+
+
 function App() {
     return (
     <div className="App">
@@ -18,8 +19,8 @@ function App() {
 
         <Route path='/' element={<Employees />} />
         <Route path= '/dictionary' element={<Dictionary/>} />
-        <Route path='/definition' element={<Definition/>} />
-        <Route path='/definition/:search' element={<Definition/>} />
+        
+        {/* <Route path='/definition/:search' element={<Definition/>} /> */}
         </Routes> 
       
       </Header>
